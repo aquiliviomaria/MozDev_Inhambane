@@ -1,0 +1,146 @@
+/* Eventos Page */
+.evento-hero {
+  position: relative;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 5vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("media/bootcamp/merito.png") center/cover no-repeat;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.evento-hero h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.evento-hero p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.25rem;
+}
+
+.evento-detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.evento-imagem img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.evento-info h3 {
+  color: #e74c3c;
+  margin-bottom: 1.5rem;
+}
+
+.evento-info p {
+  margin-bottom: 1.5rem;
+}
+
+.evento-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat i {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 0.5rem;
+}
+
+.stat span {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Méritos Section */
+.meritos-section {
+  background-color: #f9f9f9;
+}
+
+.meritos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.merito-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.merito-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.merito-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.merito-card h3 {
+  padding: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Participantes Section */
+.participantes-section {
+  background-color: white;
+}
+
+#part {
+  padding-top: 4rem;
+}
+.participantes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.participante-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.participante-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.participante-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}

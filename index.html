@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MozDevz - Inhambane | Comunidade Tech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="logo">
+        <h1>MozDevz</h1>
+        <p>Inhambane - Comunidade de Desenvolvedores</p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="core_team.html">Core Team</a></li>
+          <li><a href="#mentores">Mentores</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <h2>Impulsionando a inovação tecnológica em Inhambane</h2>
+          <p>
+            Comunidade de desenvolvedores da Universidade Metodista Unida de
+            Moçambique
+          </p>
+          <a href="core_team.html" class="btn-primary">Conheça nossa equipe</a>
+        </div>
+      </section>
+      <section id="mentores" class="mentores-section">
+        <h2 id="h2">Nossos Mentores</h2>
+        <p class="section-subtitle">
+          Engenheiros que inspiram nossa comunidade
+        </p>
+
+        <div class="mentores-grid">
+          <div class="mentor-card">
+            <img
+              src="media/mentores/faustino.png"
+              alt="Faustino Guinge"
+              loading="lazy"
+            />
+            <div class="mentor-info">
+              <h3>Faustino Ricardo Guinge</h3>
+              <p class="formation">Engenheiro Informático</p>
+              <div class="bio">
+                <p class="bio-short">
+                  Licenciado em Engenharia Informática, Mestrado em Pedagogia e
+                  Didáctica, actualmente é docente na Universidade Metodista
+                  Unida De Moçambique.
+                </p>
+                <p class="bio-full" style="display: none">
+                  Com vasta experiência no ensino de tecnologias de informação,
+                  Faustino tem contribuído significativamente para a formação de
+                  desenvolvedores em Moçambique. Seu trabalho na Universidade
+                  Metodista Unida de Moçambique tem sido fundamental para o
+                  desenvolvimento da comunidade MozDev Inhambane, oferecendo
+                  orientação técnica e pedagógica aos membros.
+                </p>
+                <button class="btn-bio">Ver mais</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mentor-card">
+            <img
+              src="media/mentores/jean.png"
+              alt="Jean Marie Jonh"
+              loading="lazy"
+            />
+            <div class="mentor-info">
+              <h3>Jean Marie Jonh</h3>
+              <p class="formation">Engenheiro Informático</p>
+              <div class="bio">
+                <p class="bio-short">
+                  Formado em Engenharia informática pela Universidade Zambeze.
+                </p>
+                <p class="bio-full" style="display: none">
+                  Especialista em desenvolvimento de sistemas e Aprendizado de
+                  Maquinas. Sua abordagem prática no ensino de programação tem
+                  ajudado muitos estudantes a se tornarem desenvolvedores
+                  competentes.
+                </p>
+                <button class="btn-bio">Ver mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="eventos-preview" class="eventos-preview-section">
+        <h2>Nossos Eventos</h2>
+        <p class="section-subtitle">Conectando e capacitando desenvolvedores</p>
+
+        <div class="evento-preview">
+          <div class="evento-preview-content">
+            <div class="evento-preview-info">
+              <h3>Bootcamp Python 2024</h3>
+              <p>
+                Nosso primeiro bootcamp de Python realizado em 2024, com
+                participação de 20 desenvolvedores da região, abordando desde
+                conceitos básicos.
+              </p>
+              <a href="eventos.html" class="btn-primary"
+                >Ver detalhes do evento</a
+              >
+            </div>
+            <div class="evento-preview-image">
+              <img
+                src="media/bootcamp/merito.png"
+                alt="Bootcamp Python 2023"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contato-section">
+        <h2>Entre em Contato</h2>
+        <p class="section-subtitle">
+          Quer fazer parte ou participar dos nossos eventos?
+        </p>
+
+        <div class="contato-container">
+          <form class="contato-form" id="evento-form">
+            <h3>Inscreva-se para nossos eventos</h3>
+            <div class="form-group">
+              <input type="text" placeholder="Seu nome completo" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Seu e-mail" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Seu telefone" required />
+            </div>
+            <div class="form-group">
+              <select required>
+                <option value="" disabled selected>
+                  Selecione o evento de interesse
+                </option>
+                <option value="bootcamp">Bootcamp Python</option>
+                <option value="workshop">Workshop de Web Development</option>
+                <option value="hackathon">Hackathon MozDevz</option>
+                <option value="outro">Outro (especifique abaixo)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Mensagem adicional ou especifique outro evento"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar Inscrição</button>
+          </form>
+
+          <div class="contato-info">
+            <h3>Informações de Contato</h3>
+            <p>
+              <i class="fas fa-university"></i> Universidade Metodista Unida de
+              Moçambique
+            </p>
+            <p><i class="fas fa-map-marker-alt"></i> Inhambane, Moçambique</p>
+            <p>
+              <i class="fas fa-envelope"></i> mozdevz.inhambane@metodista.edu.mz
+            </p>
+            <p><i class="fas fa-phone"></i> +258 84 123 4567</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>MozDevz Inhambane</h3>
+          <p>Comunidade de Desenvolvedores da Universidade Metodista</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#core-team">Core Team</a></li>
+            <li><a href="#mentores">Mentores</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 MozDevz Inhambane. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
